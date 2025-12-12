@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   reactStrictMode: false,
   images: {
     unoptimized: true
@@ -10,20 +11,8 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  async redirects() {
-    return [
-      {
-        source: "/privacy",
-        destination: "/legal#privacy",
-        permanent: true,
-      },
-      {
-        source: "/terms",
-        destination: "/legal#terms",
-        permanent: true,
-      },
-    ]
-  },
+  // Redirects removed - not compatible with static export
+  // Handle via Cloudflare Page Rules instead
 }
 
 export default nextConfig

@@ -1,6 +1,6 @@
 import BackgroundStripes from "@/components/background-stripes"
 import AnimatedBackground from "@/components/animated-background"
-import Navbar from "@/components/navbar"
+import Navbar from "@/components/Navbar"
 import AnimatedFooter from "@/components/animated-footer"
 import AboutPage from "@/components/about-page"
 import BackgroundPaths from "@/components/background-paths"

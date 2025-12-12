@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react"
 import { motion, useScroll } from "framer-motion"
 import { Target, Search, BarChart3, Globe, CheckCircle, Star, Play, Pause, Zap, Heart, Users } from "lucide-react"
-import Navbar from "@/components/navbar"
+import Navbar from "@/components/Navbar"
 import AnimatedFooter from "@/components/animated-footer"
 import BackgroundPaths from "@/components/background-paths"
 
