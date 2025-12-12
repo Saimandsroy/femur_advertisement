@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server"
 import { posts } from "@/data/posts"
 
-export const runtime = "edge"
+// Required for static export - changed from edge runtime
+export const dynamic = "force-static"
 
 export async function GET() {
   const base = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com"
